@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:alpha="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/forms_background"
+        android:contentDescription="@string/background_image_of_login_page" />
+
+    <!-- FrameLayout container -->
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Semi-transparent background layer (View with opacity) -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_border"
+            android:alpha="0.4" /> <!-- Apply opacity only to the background -->
+
+        <!-- Username EditText (No opacity applied) -->
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="270dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/rounded_edittext_border"
+            android:ems="10"
+            android:hint="@string/enter_username"
+            android:alpha="0.8"
+            android:inputType="text"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:autofillHints="Enter First Name and Surname" />
+
+        <!-- Password EditText (No opacity applied) -->
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="271dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/rounded_edittext_border"
+            android:ems="10"
+            android:hint="@string/enter_password"
+            android:alpha="0.8"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:autofillHints="Enter Secure Password" />
+
+        <!-- Button (No opacity applied) -->
+
+        <!-- ImageView (No opacity applied) -->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="283dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="390dp"
+            android:backgroundTint="#3b3041"
+            android:text="@string/login"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="106dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/rounded_border"
+            android:clipToOutline="true"
+            app:srcCompat="@drawable/_540032"
+            android:contentDescription="@string/main_logo" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="143dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="135dp"
+        app:srcCompat="@drawable/_540032"
+        android:background="@drawable/rounded_border"
+        android:clipToOutline="true"
+        android:contentDescription="@string/get_started_main_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/welcome_to_dreamdwell"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/decorate_with_purpose_live_with_passion"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_margin="25dp"
+        android:backgroundTint="#49454F"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/get_started"
+        android:textColor="#f4c8a3"
+        android:textSize="20sp" />
+
+</LinearLayout>
