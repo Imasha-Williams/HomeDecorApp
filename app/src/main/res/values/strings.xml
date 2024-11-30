@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">HomeDecorApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="background_image_of_profile_page">Background Image Of Profile Page</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="imasha_williams">Imasha Williams</string>
+    <string name="marinawilli18_gmail_com">marinawilli18@gmail.com</string>
+    <string name="username">Username</string>
+    <string name="email_address">Email Address</string>
+    <string name="country">Country</string>
+    <string name="timezone">Timezone</string>
+    <string name="sri_lanka">Sri Lanka</string>
+    <string name="asia_colombo">Asia/Colombo</string>
+    <string name="imasha_williamss">Imasha Williams</string>
+    <string name="marinawilli18_gmail_comm">marinawilli18@gmail.com</string>
+    <string name="login">Login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="background_image_of_login_page">Background Image Of Login Page</string>
+    <string name="main_logo">Main Logo</string>
+    <string name="profile_picturee">Profile Picture</string>
+    <string name="beds">Beds</string>
+    <string name="cabinets">Cabinets</string>
+    <string name="chairs_and_table_sets">Chairs and Table Sets</string>
+    <string name="main_logo_Dashboard">Main Logo</string>
+    <string name="main_logoo">Main Logo</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_to_decory">WELCOME TO DECORY</string>
+    <string name="decorate_with_purpose_live_with_passion">Decorate with Purpose, Live with Passion</string>
+    <string name="get_started_main_logo">Get Started Main Logo</string>
+    <string name="welcome_to_dreamdwell">Welcome To DreamDwell</string>
+    <string name="background_image_of_register_page">Background Image Of Register Page</string>
+</resources>
